@@ -47,7 +47,8 @@ h1, h2, h3, h4, .logo {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    max-width: 1200px;
+    max-width: 1440px;
+    width: 94%;
     margin: 0 auto;
 }
 
@@ -161,7 +162,8 @@ h1, h2, h3, h4, .logo {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
+    width: 94%;
     margin: 0 auto;
 }
 
@@ -202,14 +204,90 @@ h1, h2, h3, h4, .logo {
 .content-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2.5rem;
     margin-bottom: 4rem;
-    align-items: center;
+    align-items: stretch;
 }
 
 .text-content {
     flex: 1;
     min-width: 300px;
+}
+
+#astro .text-content {
+    flex: 1.15 1 520px;
+    background: #000;
+    color: #fff;
+    padding: 2.8rem 2.5rem;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+#astro .text-content h3 {
+    color: #fff;
+    font-size: 1.85rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+#astro .text-content p,
+#astro .text-content strong,
+#astro .text-content span,
+#astro .text-content * {
+    color: #fff;
+}
+
+#astro .text-content p {
+    margin-bottom: 1.2rem;
+    font-size: 1.02rem;
+    line-height: 1.75;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#astro .bio-qualification {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#astro .bio-qualification h4 {
+    color: #fff;
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+#astro .bio-qualification p {
+    color: #fff;
+    margin-bottom: 0.85rem;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#astro .bio-qualification p:last-child {
+    margin-bottom: 0;
+}
+
+#astro .features {
+    flex: 0.85 1 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+    perspective: 1000px;
+}
+
+#astro .features .feature-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 2rem;
 }
 
 .text-content h3 {
