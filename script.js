@@ -130,12 +130,4 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Adjust hero margin to prevent hiding under navbar
-function adjustHeroMargin() {
-    const hero = document.querySelector('.hero');
-    if (navbar && hero) {
-        hero.style.marginTop = navbar.offsetHeight + 'px';
-    }
-}
-window.addEventListener('load', adjustHeroMargin);
-window.addEventListener('resize', adjustHeroMargin);
+
