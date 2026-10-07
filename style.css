@@ -86,7 +86,6 @@ h1, h2, h3, h4, .logo {
     bottom: 0;
     left: 50%;
     background-color: var(--primary-color);
-    transition: all 0.3s ease;
     transform: translateX(-50%);
 }
 
@@ -145,7 +144,6 @@ h1, h2, h3, h4, .logo {
     border-radius: 30px;
     font-size: 1.1rem;
     font-weight: 600;
-    transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(230, 126, 34, 0.4);
     position: relative;
     overflow: hidden;
@@ -318,7 +316,6 @@ h1, h2, h3, h4, .logo {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     text-align: center;
-    transform-style: preserve-3d;
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0,0,0,0.02);
 }
@@ -411,14 +408,10 @@ h1, h2, h3, h4, .logo {
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     display: flex;
     align-items: flex-start;
-    transform-style: preserve-3d;
     border-left: 4px solid var(--primary-color);
-    transition: all 0.3s ease;
 }
 
-.timeline-item:hover {
-    box-shadow: 0 15px 35px rgba(230, 126, 34, 0.15);
-}
+
 
 .step-num {
     background: linear-gradient(45deg, var(--primary-dark), var(--primary-color));
@@ -468,7 +461,6 @@ h1, h2, h3, h4, .logo {
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    transform-style: preserve-3d;
     border: 1px solid rgba(0,0,0,0.03);
 }
 
