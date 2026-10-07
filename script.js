@@ -6,8 +6,9 @@ AOS.init({
     easing: 'ease-out-cubic'
 });
 
-// Initialize Particles.js for Cosmic Background
-particlesJS("particles-js", {
+// Initialize Particles.js for Cosmic Background (only if container exists)
+if (document.getElementById('particles-js')) {
+    particlesJS("particles-js", {
     "particles": {
         "number": {
             "value": 80,
@@ -95,6 +96,7 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
 });
+}
 
 // Mobile menu toggle logic
 const menuToggle = document.querySelector('#mobile-menu');
