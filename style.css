@@ -117,7 +117,7 @@ h1, h2, h3, h4, .logo {
 
 /* Hero Section */
 .hero {
-    margin-top: 70px;
+    margin-top: 60px;
     width: 100%;
     position: relative;
     background: #000;
@@ -629,5 +629,6 @@ h1, h2, h3, h4, .logo {
     }
 }
 
- @ m e d i a   ( m a x - w i d t h :   4 0 0 p x )   {   . l o g o   {   f o n t - s i z e :   0 . 8 5 r e m ;   }   }  
+ @ m e d i a   ( m a x - w i d t h :   4 0 0 p x )   {   . l o g o   {   f o n t - s i z e :   0 . 8 5 r e m ;   }   } 
+ 
  
