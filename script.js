@@ -129,3 +129,13 @@ window.addEventListener('scroll', () => {
         navbar.style.boxShadow = '0 4px 30px rgba(0,0,0,0.1)';
     }
 });
+
+// Adjust hero margin to prevent hiding under navbar
+function adjustHeroMargin() {
+    const hero = document.querySelector('.hero');
+    if (navbar && hero) {
+        hero.style.marginTop = navbar.offsetHeight + 'px';
+    }
+}
+window.addEventListener('load', adjustHeroMargin);
+window.addEventListener('resize', adjustHeroMargin);

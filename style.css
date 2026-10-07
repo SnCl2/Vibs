@@ -566,6 +566,10 @@ h1, h2, h3, h4, .logo {
         font-size: 1.2rem;
     }
     
+    .hero {
+        margin-top: 110px;
+    }
+    
     .menu-toggle {
         display: block;
     }
